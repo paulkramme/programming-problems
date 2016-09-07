@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import os
 
+
 print("Hey there! What's your name?")
 name = input()
 if name == "":
@@ -8,7 +9,7 @@ if name == "":
 else:
 	print("Hello " + name + "! Nice to meet you!")
 
-if os == "windows":
+if os.name == "Windows":
 	input("Press any key to end...")
 else:
 	exit()
