@@ -1,6 +1,6 @@
 #!/usr/bin/python3
+import os
 
-print(os.name)
 print("Hey there! What's your name?")
 name = input()
 if name == "":
