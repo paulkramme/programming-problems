@@ -11,4 +11,4 @@ else:
 if os == "windows":
 	input("Press any key to end...")
 else:
-	continue
+	exit()
